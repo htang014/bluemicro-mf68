@@ -26,7 +26,7 @@ std::array<std::array<Key, MATRIX_COLS>, MATRIX_ROWS> matrix =
         KC_F,         KC_G,       KC_H,       KC_J,       KC_K,       KC_L,       KC_SCLN,    KC_QUOT,    KC_ENT,
         KC_LSHIFT,    KC_Z,       KC_X,       KC_C,       KC_V,       KC_B,       KC_N,       KC_M,       KC_COMM,
         KC_DOT,       KC_SLSH,    KC_RSFT,    KC_UP,      KC_LCTL,    KC_LGUI,    KC_LALT,    KC_SPC,     LAYER_1,
-        KC_RALT,      KC_RCTL,    LC_LEFT,    KC_DOWN,    KC_RIGHT   
+        KC_RALT,      KC_RCTL,    KC_LEFT,    KC_DOWN,    KC_RIGHT   
     )};
 
  
