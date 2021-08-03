@@ -24,25 +24,34 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 #define KEYBOARD_SIDE SINGLE
 
 
-#define DEVICE_NAME_R                         "4x4Backpack_R"                         /**< Name of device. Will be included in the advertising data. */
-#define DEVICE_NAME_L                         "4x4Backpack_L"                         /**< Name of device. Will be included in the advertising data. */
-#define DEVICE_NAME_M                         "4x4Backpack"                           /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_R                         "MF68_R"                      	 /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_L                         "MF68_L"                      	 /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_M                         "MF68"                          	 /**< Name of device. Will be included in the advertising data. */
 
-#define DEVICE_MODEL                        "4x4Backpack_V1"                          /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_MODEL                        "MF68_V1.1"                          /**< Name of device. Will be included in the advertising data. */
 
-#define MANUFACTURER_NAME                   "keyboards.jpconstantineau.com"         /**< Manufacturer. Will be passed to Device Information Service. */
+#define MANUFACTURER_NAME                   "40percentclub"		         /**< Manufacturer. Will be passed to Device Information Service. */
 
 
 #define KEYMAP( \
-	 K00,   K01,   K02,   K03,      \
-	 K10,   K11,   K12,   K13,     \
-	 K20,   K21,   K22,   K23,     \
-	 K30,   K31,   K32,   K33 \
+	 K00,   K01,   K02,   K03,   K04,   K05,   K06,   K07,   K08, \
+	 K10,   K11,   K12,   K13,   K14,   K15,   K16,   K17,   K18, \
+	 K20,   K21,   K22,   K23,   K24,   K25,   K26,   K27,   K28, \
+	 K30,   K31,   K32,   K33,   K34,   K35,   K36,   K37,   K38, \
+	 K40,   K41,   K42,   K43,   K44,   K45,   K46,   K47,   K48, \
+	 K50,   K51,   K52,   K53,   K54,   K55,   K56,   K57,   K58, \
+	 K60,   K61,   K62,   K63,   K64,   K65,   K66,   K67,   K68, \
+	 K70,   K71,   K72,   K73,   K74 \
 ) { \
-	{ K00,   K01,   K02,   K03,   }, \
-	{ K10,   K11,   K12,   K13,   }, \
-	{ K20,   K21,   K22,   K23,   }, \
-	{ K30,   K31,   K32,   K33    } \
+	{ K00,   K01,   K02,   K03,   K04,   K05,   K06,   K07,   K08   }, \
+	{ K10,   K11,   K12,   K13,   K14,   K15,   K16,   K17,   K18   }, \
+	{ K20,   K21,   K22,   K23,   K24,   K25,   K26,   K27,   K28   }, \
+	{ K30,   K31,   K32,   K33,   K34,   K35,   K36,   K37,   K38   }, \
+	{ K40,   K41,   K42,   K43,   K44,   K45,   K46,   K47,   K48   }, \
+	{ K50,   K51,   K52,   K53,   K54,   K55,   K56,   K57,   K58   }, \
+	{ K60,   K61,   K62,   K63,   K64,   K65,   K66,   K67,   K68   }, \
+	{ K70,   K71,   K72,   K73,   K74,   KC_NO, KC_NO, KC_NO, KC_NO }, \
+
 }
 
 
