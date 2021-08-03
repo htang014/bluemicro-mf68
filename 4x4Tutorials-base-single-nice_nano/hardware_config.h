@@ -23,17 +23,20 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 #include "hardware_variants.h"
 /* HARDWARE DEFINITION*/
 /* key matrix size */
-#define MATRIX_ROWS 4
-#define MATRIX_COLS 4
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 9
 
-	#define MATRIX_ROW_PINS {25, 26, 27, 28}
-	#define MATRIX_COL_PINS {29, 30, 2, 3}
+	#define MATRIX_ROW_PINS {9, 10, 43, 45, 47, 2, 29, 31}
+	#define MATRIX_COL_PINS {6, 8, 17, 20, 22, 24, 32, 11, 36}
 
-#define BATTERY_TYPE BATT_CR2032
-#define VBAT_PIN  31
+#define BATTERY_TYPE BATT_VDDH
+#define VCC_PIN 13
 
-#define  STATUS_BLE_LED_PIN  19  //blue = 0.19
-#define  STATUS_KB_LED_PIN 17  //red = 0.17
+#define  STATUS_BLE_LED_PIN  15  //blue = 0.15
+
+#define BACKLIGHT_LED_PIN 38
+#define BACKLIGHT_PWM_ON 1 
+#define DEFAULT_PWM_VALUE 10000  // Reduce max PWM to 10000 out of 63351 (0x7FFF)
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
