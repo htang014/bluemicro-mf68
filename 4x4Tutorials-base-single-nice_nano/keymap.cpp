@@ -38,8 +38,8 @@ void setupKeymap() {
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
-        KC_NO,       KC_NO,       KC_NO,      BL_TOGG,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
-        KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO
+        KC_NO,       KC_NO,       KC_NO,      BL_TOGG,    KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
+        KC_NO,       KC_NO,       KC_NO,      KC_NO,      BL_STEP
     );
 
     ADDLAYER(_L1, Method::PRESS , layer1);
