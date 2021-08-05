@@ -85,7 +85,7 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 #endif
 
 #ifndef VBAT_PIN
-#define VBAT_PIN  31       // make sure we have a default analog pin to do something with...
+#define VBAT_PIN  38       // make sure we have a default analog pin to do something with...
 #endif
 
 #ifndef BATTERYINTERVAL
