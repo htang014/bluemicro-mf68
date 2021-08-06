@@ -33,7 +33,7 @@ std::array<std::array<Key, MATRIX_COLS>, MATRIX_ROWS> matrix =
 void setupKeymap() {
     uint32_t layer1[MATRIX_ROWS][MATRIX_COLS] = KEYMAP(
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,     
-        KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
+        KC_NO,       KC_NO,       KC_NO,      KC_NO,      RESET,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
