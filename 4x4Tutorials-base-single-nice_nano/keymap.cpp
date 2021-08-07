@@ -36,7 +36,7 @@ void setupKeymap() {
         KC_NO,       KC_NO,       KC_NO,      EEP_RST,    RESET,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
-        KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
+        KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      UF2_DFU,
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
         KC_NO,       KC_NO,       KC_NO,      BL_TOGG,    KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,
         KC_NO,       KC_NO,       KC_NO,      KC_NO,      BL_STEP
